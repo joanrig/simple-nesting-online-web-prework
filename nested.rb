@@ -15,7 +15,8 @@ def hopper
           :languages => ["C"]
         }
      }
-    programmer_hash.values_at(:grace_hopper)
+    answer = programmer_hash.values_at(:grace_hopper)
+    answer.string
 
 end
 
